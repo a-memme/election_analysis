@@ -24,7 +24,7 @@ Analysis of election shows that
   - Charles Casper Stockham: received 23% of the vote and 85,213 total votes 
   - Diana DeGette: received 73.8% of the vote and 272,892 total votes 
   - Raymon Anthony Doane: received 3.1% of the vote and 11,606 total votes
-- The winner of the electionw as:
+- The winner of the election was:
   - Diana DeGette who receieved 73.8% of the vote and 272,892 total votes
 
 ## Challenge Overview 
