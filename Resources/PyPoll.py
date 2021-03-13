@@ -51,30 +51,50 @@ with open(file_to_load) as election_data:
             candidate_votes[candidate_name] = 0
         candidate_votes[candidate_name] += 1
 
-## new loop accessing the dictionary
-## declare votes variable as the number of votes for a specific candidate
-## declare vote_percentage variable as percentage of total votes for a specific candidate
-## print statement of total votes/percentage for each candidate + formatting modifications
-for candidate_name in candidate_votes:
-    votes = candidate_votes[candidate_name]
-    vote_percentage = float(votes) / float(total_votes) * 100
-    print(f"{candidate_name}: received {vote_percentage:.1f}% ({votes:,})\n")
+with open(file_to_save, "w") as txt_file:
+    
+    election_results = (
+    f"\nElection Results\n"
+    f"-------------------\n"
+    f"Total Votes: {total_votes:,}\n"
+    f"--------------------\n"
+)
+    print(election_results, end="")
+    txt_file.write(election_results)
+    
+    ## new loop accessing the dictionary
+    ## declare votes variable as the number of votes for a specific candidate
+    ## declare vote_percentage variable as percentage of total votes for a specific candidate
+    ## print statement of total votes/percentage for each candidate + formatting modifications
+    for candidate_name in candidate_votes:
+        votes = candidate_votes[candidate_name]
+        vote_percentage = float(votes) / float(total_votes) * 100
+        candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
+       
+        print(candidate_results)
+        txt_file.write(candidate_results)
+    ## if statement withi the loop, increasing the value of variables until reaching the highest
+    ## storing these values in new variables (winning_count, percentage, candidate)
+    ## output winning data through winning_candidate_summary variable
+    ## save (write) variable to txt file - previously defined variable txt_file
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            winning_count = votes
+            winning_percentage = vote_percentage
+            winning_candidate = candidate_name
+        winning_candidate_summary = (
+        f"---------------------------\n"
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
+        f"---------------------------\n"
+        )
+    
 
-## if statement withi the loop, increasing the value of variables until reaching the highest
-## storing these values in new variables (winning_count, percentage, candidate)
-## output winning data through winning_candidate_summary variable
-    if (votes > winning_count) and (vote_percentage > winning_percentage):
-        winning_count = votes
-        winning_percentage = vote_percentage
-        winning_candidate = candidate_name
-    winning_candidate_summary = (
-    f"---------------------------\n"
-    f"Winner: {winning_candidate}\n"
-    f"Winning Vote Count: {winning_count:,}\n"
-    f"Winning Percentage: {winning_percentage:.1f}%\n"
-    f"---------------------------\n"
-    )
-print(winning_candidate_summary)
+    print(winning_candidate_summary)
+    txt_file.write(winning_candidate_summary)
+
+
+
 
  
 
