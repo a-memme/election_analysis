@@ -14,7 +14,7 @@ Colorado Board of Elections employee giving the following tasks to analyze the e
 - Data Source: election_results.csv
 - Software: Python, Visual Studio Code 
 
-## Summary 
+## Audit Results
 Analysis of election shows that 
 - There were 369,711 votes cast in the election 
 
@@ -49,3 +49,6 @@ Analysis of election shows that
 - The county with the largest voter turnout was Denver.
 - The winner of the election was:
   - Diana DeGette who receieved 73.8% of the vote and 272,892 total votes
+
+## Audit Summary
+
