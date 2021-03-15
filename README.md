@@ -51,4 +51,9 @@ Analysis of election shows that
   - Diana DeGette who receieved 73.8% of the vote and 272,892 total votes
 
 ## Audit Summary
+The current Python script written for the purpose of this election analysis (reference PyPoll_Challenge.py file) is quite versatile in nature and can be applied over again to get at the information of interest for any election. With any election data typically organized and stored within a csv file, the code designed in this script will access the data file, declare a number of different variabes, lists and dictionaries to represent and store the information regarding the above categories of interest, and will loop through the data count and pull out such information - i.e the total number of votes casted; how many candidates there are and name them; how many votes each candidate received and what percentage of the total vote they received; what countys/districts were involved in the election, how many votes came from that area and what percentage of the total was casted in this area; etc. Furthermore, it will save and print this data in an organized manner in a seperate, easy-to-read txt file as done so in this analysis (reference the Analysis folder - )
+
+
+
+
 
