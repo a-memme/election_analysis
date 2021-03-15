@@ -17,7 +17,8 @@ Colorado Board of Elections employee giving the following tasks to analyze the e
 ## Summary 
 Analysis of election shows that 
 - There were 369,711 votes cast in the election 
-*analyzed using the following code in python:*
+
+*(analyzed using the following code in python):*
 
 <img width="350" alt="1_totalvotes" src="https://user-images.githubusercontent.com/79600550/111091394-2c568680-8509-11eb-93ea-5e9d17eb1601.png">
 <img width="466" alt="2_totalvotes" src="https://user-images.githubusercontent.com/79600550/111091396-2e204a00-8509-11eb-9eb2-8643ac28dcf1.png">
@@ -31,7 +32,8 @@ Analysis of election shows that
   - Charles Casper Stockham received 85,213 votes or 23% of the total vote 
   - Diana DeGette received 272,892 votes or 73.8% of the total vote
   - Raymon Anthony Doane received 11,606 votes or 3.1% of the total vote
-*analyzed using the following code in python:*
+
+*(analyzed using the following code in python):*
 
 <img width="538" alt="candidate_results" src="https://user-images.githubusercontent.com/79600550/111091510-86574c00-8509-11eb-8be9-5b8b5ac4dcc2.png">
 
@@ -39,7 +41,8 @@ Analysis of election shows that
   -  Jefferson county received a total of 38,855 votes or 10.5% of the total vote 
   - Denver county received a total of 306,055 votes or 82.8% of the total vote 
   - Arapahoe county recieved a total 24,801 votes or 6.8% of the total vote
-*analyzed using the following code in python:*
+
+*(analyzed using the following code in python):*
 
 <img width="650" alt="county_results" src="https://user-images.githubusercontent.com/79600550/111091432-44c6a100-8509-11eb-9adb-bff7330e99e7.png">
 
