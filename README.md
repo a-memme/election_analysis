@@ -1,7 +1,7 @@
 # Election_Analysis 
 
 ## Project Overview 
-Colorado Board of Elections employee giving the following tasks to analyze the election results of a recent local congressional election and perform an audit. This audit was to provide information on
+Colorado Board of Elections employee giving the following tasks to analyze the election results of a recent local congressional election and perform an audit. This audit was to provide information on the following:
 
 - the total number of votes cast 
 - the complete list of candidates who received votes, how many votes each candidate received, and what percentage of the total vote each candidate received 
@@ -15,7 +15,7 @@ Colorado Board of Elections employee giving the following tasks to analyze the e
 - Software: Python, Visual Studio Code 
 
 ## Audit Results
-Analysis of election shows that 
+Analysis of election shows that:
 - There were 369,711 votes cast in the election 
 
 *(analyzed using the following code in python):*
@@ -48,7 +48,7 @@ Analysis of election shows that
 
 - The county with the largest voter turnout was Denver.
 - The winner of the election was:
-  - Diana DeGette who receieved 73.8% of the vote and 272,892 total votes
+  - Diana DeGette who received 73.8% of the vote and 272,892 total votes
 
 ## Audit Summary
 The current Python script written for the purpose of this election analysis (reference PyPoll_Challenge.py file) is quite versatile in nature and can be applied over again to get at the information of interest for any election. With any election data typically organized and stored within a csv file, the code designed in this script will access the data file, declare a number of different variabes, lists and dictionaries to represent and store the information regarding the above categories of interest, and will loop through the data count and pull out such information - i.e the total number of votes casted; how many candidates there are and name them; how many votes each candidate received and what percentage of the total vote they received; what counties/districts were involved in the election, how many votes came from that area; what percentage of the total vote was casted in this area; etc. Furthermore, it will save and print this data in an organized manner in a seperate, easy-to-read txt file as done so in this analysis (reference the Analysis folder - election_analysis.txt). Of course, how the original data file is organized will determine what adjustments need to be made to the code in order to reference the correct physical location of the information (i.e if the candidate names' information is stored in the second column rather than first, etc.). These changes, however, are quite minor and easy to perform.
