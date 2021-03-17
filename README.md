@@ -1,7 +1,7 @@
 # Election_Analysis 
 
 ## Project Overview 
-Colorado Board of Elections employee giving the following tasks to analyze the election results of a recent local congressional election and perform an audit. This audit was to provide information on the following:
+Analyzing the election results of a recent local congressional election and performing an audit. This audit was to provide information on the following:
 
 - the total number of votes cast 
 - the complete list of candidates who received votes, how many votes each candidate received, and what percentage of the total vote each candidate received 
