@@ -54,14 +54,4 @@ Analysis of election shows that:
 The current Python script written for the purpose of this election analysis (reference PyPoll_Challenge.py file) is quite versatile in nature and can be applied over again to get at the information of interest for any election. With election data that is clean and stored within a csv file, the code designed in this script will access the data file, declare a number of different variabes, lists and dictionaries to represent and store the information regarding the above categories of interest, and will loop through the data count and pull out such information - i.e the total number of votes casted; how many candidates there are and name them; how many votes each candidate received and what percentage of the total vote they received; what counties/districts were involved in the election, how many votes came from that area; what percentage of the total vote was casted in this area; etc. Furthermore, it will save and print this data in an organized manner in a seperate, easy-to-read txt file as done so in this analysis (reference the Analysis folder - election_analysis.txt). 
 
 Of course, how the original data file is organized will determine what adjustments need to be made to the code in order to reference the correct physical location of the information. For example, if the candidates names data is stored in the first or second column rather than third (ie column 0 or column 1 instead of column 2 according to Python indexing), areas in the code can be altered to reference these specific areas in the for loop. These changes are quite minor and easy to perform. 
-Another example in which the code can be altered to suit data for other elections would be to collect information on a more diverse dataset. If futher data were to be provided - for example, different voter demographic information - the same structure of code used in this analysis could be used to provide valuable insights on this information as well, presenting even more useful information when analyzing election results. This could simply be done with the use of lists or dictionaries to organize the data, and provided basis for reference when looping through the dataset.
-
-
-
-
-
-
-
-
-
-
+Another example in which the code can be altered to suit data for other elections would be to those that provide a more diverse dataset. If futher data were provided - for example, different voter demographic information - the same structure of code used in this analysis could be used to provide valuable insights on this information as well, presenting even more useful information when analyzing election results. This could simply be done with the use of lists or dictionaries to organize the data, and provide point of reference when looping through the dataset and performing calculations (if necessary). 
