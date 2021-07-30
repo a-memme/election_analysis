@@ -1,7 +1,7 @@
 # Election_Analysis 
 
 ## Project Overview 
-Analyzing the election results of a samle congressional election and performing an audit. This audit was to provide information on the following:
+Analyzing the election results of a sample congressional election and performing an audit. This audit was to provide information on the following:
 
 - the total number of votes cast 
 - the complete list of candidates who received votes, how many votes each candidate received, and what percentage of the total vote each candidate received 
