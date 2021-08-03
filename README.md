@@ -12,7 +12,7 @@ Analyzing the election results of a sample congressional election and performing
 
 ## Resources 
 - Data Source: election_results.csv
-- Software: Python, Visual Studio Code 
+- Tools: Python, Visual Studio Code 
 
 ## Audit Results
 Analysis of election shows that:
